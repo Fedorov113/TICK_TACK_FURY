@@ -1,0 +1,77 @@
+
+thead tr td {
+    font-weight: lighter;
+
+}
+.title {
+    color: #c0392b;
+    text-align:center;
+    font-family: "Monaco", "Andale Mono", "Consolas", monospace;
+    font-weight: bold;
+    font-size: 60pt;
+}
+
+#field {
+display: block;
+    position:fixed;
+    left: 300px;
+    top:60pt;
+    right:20px;
+    bottom:20px;
+    overflow: scroll;
+    z-index:0;
+}
+
+.cell {
+    width:55px;
+    height:55px;
+    border-radius: 5px;
+    display: block;
+    background: #e0efaf;
+    position:absolute;
+    text-align: center;
+    line-height: 55px;
+    font-family: "Monaco", "Andale Mono", "Consolas", monospace;
+    font-size: 30pt;
+    color: #16a085;
+}
+
+.cell:hover
+{
+    border:1px solid #2ecc71;
+ /*   cursor:pointer */
+}
+
+#block{
+    margin-top:20px;
+    padding: 5px;
+    min-width:280px;
+    width:290px;
+    min_height:300px;
+
+}
+
+.clear-both {
+    clear: both;
+}
+
+dialog {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    background: #ecf0f1;
+    font-size: 36pt;
+    color: #c0392b;
+    text-align:center;
+    font-family: "Monaco", "Andale Mono", "Consolas", monospace;
+}
+
+dialog::backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
